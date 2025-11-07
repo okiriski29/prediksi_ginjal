@@ -154,7 +154,7 @@ if X is not None:
 
     # --- Tombol dan Hasil Prediksi ---
     
-    if st.button("🚀 PREDIKSI RISIKO CKD", type="primary"):
+    if st.button("🚀 PREDIKSI", type="primary"):
         input_scaled = scaler.transform(input_df)
         
         prediction = model.predict(input_scaled)
